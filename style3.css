@@ -1,0 +1,110 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.header{
+    height: 8%;
+}
+
+.navbar-style{
+    box-shadow: 0 5px 10px #7e7879;
+    text-transform: uppercase; 
+}
+
+.logo{
+    height: 53px;
+    padding: 0px 0px;
+    position: relative;
+    animation-name: anime;
+    animation-duration: 10s;
+}
+@keyframes anime {
+    0%   {background-color:#F2EA02; left:0px; top:0px;}
+    25%  {background-color:#FF0099; left:500px; top:0px;}
+    50%   {background-color:#00FFFF; left:0px; top:0px;}
+    
+  }
+.icon-bar{
+    background: darkblue;
+}
+li a{
+    color: #ffffff;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: cursive;
+}
+.header{
+    
+    height: 100%;
+    width: 100%;
+    background: url("https://img.freepik.com/free-photo/old-stone-texture-background-toned-classic-blue-color_107210-688.jpg?size=626&ext=jpg")no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.main{
+    margin-top: 35px;
+    width: 50%;
+    font-size: 20px;
+    background: rgba(0, 0,0, .7) ;
+    color: #ffffff;
+    text-align: center;
+    padding: 50px;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    }
+    .btn{
+        padding: 10px 20px;
+        color: black;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: large;
+    font-weight: 500;
+    border: none;
+    outline: none ;
+    background: #ffffff;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+    }
+    .btn:hover{
+        background: black;
+        color: #ffffff;
+
+    }
+    body{
+        font-family: 'Trebuchet MS', sans-serif;
+    }
+    .footer{
+        background: black;
+        color:white;
+        height:1000px;
+        position:relative;
+    }
+    .footer .footer-content{
+        height:900px;
+        display:flex;
+    }   
+    .footer .footer-content .footer-section{
+        flex: 1;
+        padding: 50px;    
+    }
+    .footer .footer-bottom1{
+        color:rgb(185, 181, 181);
+        height: 30px;
+        position: absolute;
+        bottom:15px;
+        left:50px;
+        padding-top: 20px;
+    }
+    .footer .footer-bottom2{
+        color:rgb(185, 181, 181);
+        height:30px;
+        position:absolute;
+        bottom:15px;
+        right:30px;
+        padding-top:20px;
+    }

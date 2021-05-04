@@ -1,0 +1,186 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.header{
+    height: 8%;
+}
+
+.navbar-style{
+    box-shadow: 0 5px 10px #7e7879;
+    text-transform: uppercase; 
+}
+
+.logo{
+    height: 53px;
+    padding: 0px 0px;
+    position: relative;
+    animation-name: anime;
+    animation-duration: 10s;
+}
+@keyframes anime {
+    0%   {background-color:#F2EA02; left:0px; top:0px;}
+    25%  {background-color:#FF0099; left:500px; top:0px;}
+    50%   {background-color:#00FFFF; left:0px; top:0px;}
+    
+  }
+.icon-bar{
+    background: darkblue;
+}
+li a{
+    color: #d90429;
+}
+ .bg-img{
+    background-image: url('../images/breadcrumb.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+} 
+.breadcrumb{
+    position: relative;
+    z-index: 1;
+    height: 250px;
+}
+.breadcrumb:after {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #001b5e;
+    content: "";
+    opacity: .7;
+    z-index: -1;
+}
+.heading{
+    font-size: 3rem;
+    /* line-height: 6rem; */
+}
+.par:hover{
+    color: #000 !important;
+}
+.parag{
+    font-size: 20px;
+    margin: 0px;
+}
+button{
+    margin-top: 40px;
+
+}
+
+.mb-40 {
+    margin-bottom: 35px!important;
+}
+.but{
+    background-color: #ff4546 !important;
+    border: 1px solid #ff4546 !important;
+}
+.but:hover{
+    background-color: red !important;
+}
+.section2{
+  /* min-height: 100vh; */
+  align-items: center;
+}
+.fs-20-md{
+    font-size: 20px;
+}
+.fw-400{
+    font-weight: 400;
+}
+.anchor-tag:hover{
+    background-color: darkgray !important;
+}
+.fi{
+    font-size: 48px;
+}
+.img-tag{
+    background-image: url('../images/we-save-time-df9f042e9a.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 150px 0;
+    text-shadow: 1px 1px 0 #000;
+}
+.p-6{
+    padding-inline: 320px !important;
+}
+.pr-50{
+    padding-block:14px ;
+    padding-right: 270px !important;
+    padding-left: 13px;
+}
+.mb-50{
+    margin-bottom: 50px;
+    margin-right: 60px;
+}
+.inquary-form{
+    /* display:none */
+    padding: 40px;
+}
+.btn-clr{
+    background-color: #ff4546 !important;
+    border: 1px solid #ff4546 !important;
+}
+.btn-clr:hover{
+    background-color: red !important;
+}
+.ts-30{
+    font-size:45px;
+}
+.fs-22{
+    font-size: 22px;
+    padding-bottom: 25px;
+}
+.bg-color{
+    background-color: #f7f7f7;
+}
+.ml-10{
+    margin-left: -13px !important;
+}
+.inquiry-form{
+    padding: 40px;
+    display: none ;
+    text-align: center;
+}
+.fw-300{
+    font-weight: 300;
+}
+.fs-18{
+    font-size: 18px;
+}
+.mb-20{
+    margin-bottom: 20px;
+}
+.mr-10{
+    margin-right: 10px;
+}
+.enquiry-form .form-control{
+    padding: 17px !important;
+    height: max-content !important;
+}
+.enquiry-form textarea{
+    height: 200px  !important;
+}
+.btn-size{
+    padding: 9px !important;
+    padding-inline: 20px !important;
+    margin-left: 180px;
+}
+.text-d{
+    margin-bottom: 50px;
+}
+.fs-10{
+    font-size: 14px;
+}
+.txt-clr{
+    color:rgba(103, 71, 199, 0.98);
+}
+.contact_us{
+    padding: 15px;
+    padding-top: 35px;
+    background-color: #6c757d!important;
+}
+.contact_us .card{
+    padding: 20px;
+}

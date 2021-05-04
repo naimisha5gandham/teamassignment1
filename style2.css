@@ -1,0 +1,98 @@
+body{
+    background-color:#000000  ;
+  }
+  .login
+  {
+    margin: 100px auto;
+    width: 150px;
+    background-color: #fff;
+    padding: 200px;
+    height: 60px;
+    margin-top: 80px;
+  opacity:95%;
+  }
+  .image
+  {
+    width: 210px;
+    height: 30px;
+    margin:60px auto;
+    bottom: 10px;
+    margin-top: 80px;
+  }
+  .log{
+      text-align: center;
+    margin-left: 1%;
+    margin-top: -180px;
+    font-weight: 530;    
+    font-size:25px;
+    margin-left: -50px;
+    height: 100px;
+    white-space: nowrap;
+    font-family: Arial Narrow, sans-serif;
+  }
+  .form
+  {
+    width: 100%;
+    margin-top: 30px;
+  }
+  .user input
+  {
+    font-size: 18px;
+    padding: 10px 20px 10px 5px;
+    border: none;
+    outline: none;
+    background: none;
+    kerning:50px;
+    font-family: Didot, serif;
+    font-size: 15px;
+  }
+  .password input{
+    font-size: 18px;
+    padding: 10px 20px 10px 5px;
+    border: none;
+    outline: none;
+    background: none;
+  font-family: Didot, serif;
+    font-size: 15px;
+  }
+  .user
+  {
+    display: block;
+    border-radius: 5px;
+    border: 1px solid #AEB6BF   ;
+    padding: 4px;
+   margin-left: -140px;
+   margin-right: -120px;
+   margin-bottom: 5px;
+  }
+
+  button.log-in{
+    text-align: center;
+   width: 410px;
+   padding: 15px 20px;
+   border:none;
+   font-size: 18px;
+   border-radius: 5px;
+   background-color: #F12421;
+   color: white;
+   margin-left: -140px;
+   margin-right: -220px;
+   margin-top: 1px;
+   margin-bottom: 15px;
+  }
+  .bottom
+  {
+    margin-top: 5px;
+    text-align: center;
+    font-size: 12px;
+    margin-left: -50px;
+    white-space: nowrap;
+  }
+ .img1
+ {
+     margin-top: -50px;
+ }
+  button:hover
+     {
+      background-color:blue ;
+     }
